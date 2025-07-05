@@ -1,0 +1,15 @@
+#palette div {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+#palette div:hover {
+  transform: scale(1.05);
+}
